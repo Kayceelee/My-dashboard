@@ -1,0 +1,61 @@
+.widgetsm {
+    flex: 1;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -11px 4px 10px 3px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, -11px 4px 10px 3px rgba(0, 0, 0, 0);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.widgetsmTitle {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.widgetsmList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetsmListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.widgetsmUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetsmImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetsmUserName {
+    font-weight: bold;
+}
+
+.widgetsmUserTitle {
+    font-weight: 300;
+}
+
+.widgetsmButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetsmIcon {
+    font-size: 15px;
+    margin-right: 5px;
+}
